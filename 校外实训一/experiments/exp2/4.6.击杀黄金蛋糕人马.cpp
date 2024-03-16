@@ -12,7 +12,7 @@ int main()
 	cout.tie(0);
 
     int l, w, m;
-    while (cin >> l >> w >> m && (l || w || m))
+    while (cin >> l >> w >> m and (l or w or m))
     {
         int largets[l + 1][w + 1][m + 1];
         memset(largets, INF, sizeof(largets));

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-long long sum = 0; // 逆序数的个数
+long long sum = 0;
 
 template <typename T>
 vector<T> s_merge(vector<T> a, vector<T> b)
