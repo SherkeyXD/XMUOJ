@@ -1,0 +1,56 @@
+# Sources
+*.c     text diff=cpp eol=lf
+*.cc    text diff=cpp eol=lf
+*.cxx   text diff=cpp eol=lf
+*.cpp   text diff=cpp eol=lf
+*.cpi   text diff=cpp eol=lf
+*.c++   text diff=cpp eol=lf
+*.hpp   text diff=cpp eol=lf
+*.h     text diff=cpp eol=lf
+*.h++   text diff=cpp eol=lf
+*.hh    text diff=cpp eol=lf
+*.pxd    text diff=python eol=lf
+*.py     text diff=python eol=lf
+*.py3    text diff=python eol=lf
+*.pyw    text diff=python eol=lf
+*.pyx    text diff=python eol=lf
+*.pyz    text diff=python eol=lf
+*.pyi    text diff=python eol=lf
+
+# Jupyter notebook
+*.ipynb  text eol=lf
+
+# Compiled Object files
+*.slo   binary
+*.lo    binary
+*.o     binary
+*.obj   binary
+
+# Precompiled Headers
+*.gch   binary
+*.pch   binary
+
+# Compiled Dynamic libraries
+*.so    binary
+*.dylib binary
+*.dll   binary
+
+# Compiled Static libraries
+*.lai   binary
+*.la    binary
+*.a     binary
+*.lib   binary
+
+# Executables
+*.exe   binary
+*.out   binary
+*.app   binary
+
+# Python binary
+*.db     binary
+*.p      binary
+*.pkl    binary
+*.pickle binary
+*.pyc    binary export-ignore
+*.pyo    binary export-ignore
+*.pyd    binary
